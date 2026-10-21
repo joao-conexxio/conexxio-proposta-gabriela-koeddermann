@@ -1,0 +1,109 @@
+<section class="blk-mohs" id="mohs">
+  <div class="wrap blk-mohs__grade">
+    <div class="blk-mohs__texto">
+      <p class="blk-mohs__eyebrow">Cirurgia micrográfica de Mohs</p>
+      <h2 class="blk-mohs__titulo" data-reveal>Camada por camada, até a margem limpa</h2>
+      <p class="blk-mohs__lead" data-acende>Na cirurgia comum, a margem de segurança é estimada a olho e o laudo chega dias depois. Na técnica de Mohs, a lesão sai em camadas finas e toda a borda é examinada ao microscópio enquanto a paciente espera. Só se retira mais pele onde ainda há tumor.</p>
+      <div class="blk-mohs__diagrama" aria-hidden="true" data-reveal>
+        <span class="blk-mohs__faixa blk-mohs__faixa--1">Epiderme</span>
+        <span class="blk-mohs__faixa blk-mohs__faixa--2">Derme</span>
+        <span class="blk-mohs__faixa blk-mohs__faixa--3">Hipoderme</span>
+        <span class="blk-mohs__corte blk-mohs__corte--1">1ª</span>
+        <span class="blk-mohs__corte blk-mohs__corte--2">2ª</span>
+        <span class="blk-mohs__corte blk-mohs__corte--3">3ª</span>
+      </div>
+      <p class="blk-mohs__selo"><span class="blk-mohs__ico"><!--icone:microscopio--></span>Fellowship em Cirurgia Micrográfica pela UFSC, em Florianópolis</p>
+    </div>
+    <ol class="blk-mohs__etapas">
+      <li data-reveal style="--d:0ms">
+        <span class="blk-mohs__num">1</span>
+        <span class="blk-mohs__ico"><!--icone:seringa--></span>
+        <strong>Anestesia local e primeira camada</strong>
+        <p>Sai a parte visível da lesão com uma borda fina de pele ao redor.</p>
+      </li>
+      <li data-reveal style="--d:90ms">
+        <span class="blk-mohs__num">2</span>
+        <span class="blk-mohs__ico"><!--icone:local--></span>
+        <strong>O mapa</strong>
+        <p>A peça é marcada e desenhada, para saber de que ponto da ferida veio cada pedaço da borda.</p>
+      </li>
+      <li data-reveal style="--d:180ms">
+        <span class="blk-mohs__num">3</span>
+        <span class="blk-mohs__ico"><!--icone:microscopio--></span>
+        <strong>O microscópio</strong>
+        <p>A margem inteira é analisada ali mesmo, não uma amostra dela.</p>
+      </li>
+      <li data-reveal style="--d:270ms">
+        <span class="blk-mohs__num">4</span>
+        <span class="blk-mohs__ico"><!--icone:pele--></span>
+        <strong>Nova camada só onde precisa</strong>
+        <p>Se o mapa mostra tumor num canto, a próxima camada sai só daquele canto. Repete até a borda vir limpa.</p>
+      </li>
+      <li data-reveal style="--d:360ms">
+        <span class="blk-mohs__num">5</span>
+        <span class="blk-mohs__ico"><!--icone:check--></span>
+        <strong>O fechamento</strong>
+        <p>Com a margem confirmada, a ferida é fechada com a cicatriz planejada para aquela região do rosto ou do corpo.</p>
+      </li>
+    </ol>
+  </div>
+</section>
+
+<style>
+.blk-mohs{padding-block:var(--sp-section);background:color-mix(in srgb,var(--brand) 6%,var(--bg))}
+.blk-mohs__grade{display:grid;gap:var(--sp-5);align-items:start}
+.blk-mohs__eyebrow{
+  margin:0 0 var(--sp-2);font-family:var(--f-body);font-size:var(--t-label);
+  letter-spacing:var(--eyebrow-track);text-transform:uppercase;color:var(--brand);
+}
+.blk-mohs__titulo{
+  margin:0;font-family:var(--f-display);font-size:var(--t-h2);font-weight:500;
+  line-height:var(--lh-display);text-wrap:balance;color:var(--ink);
+}
+.blk-mohs__lead{margin:var(--sp-3) 0 0;font-size:1.1rem;line-height:1.65;color:var(--ink);max-width:36rem}
+.blk-mohs__diagrama{
+  position:relative;margin-top:var(--sp-4);max-width:30rem;height:11rem;
+  border-radius:var(--radius);overflow:hidden;
+}
+.blk-mohs__faixa{
+  position:absolute;left:0;right:0;display:flex;align-items:flex-end;justify-content:flex-end;
+  padding:.4rem .7rem;font-size:var(--t-label);letter-spacing:var(--eyebrow-track);text-transform:uppercase;
+  color:color-mix(in srgb,var(--ink) 62%,transparent);
+}
+.blk-mohs__faixa--1{top:0;height:22%;background:color-mix(in srgb,var(--brand) 26%,var(--bg))}
+.blk-mohs__faixa--2{top:22%;height:43%;background:color-mix(in srgb,var(--brand) 15%,var(--bg))}
+.blk-mohs__faixa--3{top:65%;bottom:0;background:color-mix(in srgb,var(--brand) 7%,var(--bg))}
+.blk-mohs__corte{
+  position:absolute;top:0;display:flex;align-items:flex-end;justify-content:center;padding-bottom:.25rem;
+  border:1.5px dashed var(--brand);border-top:0;border-radius:0 0 999px 999px;
+  font-family:var(--f-display);font-size:1rem;color:var(--brand);
+}
+.blk-mohs__corte--1{left:14%;width:30%;height:34%;background:color-mix(in srgb,var(--bg) 70%,transparent)}
+.blk-mohs__corte--2{left:9%;width:40%;height:58%;border-style:dashed}
+.blk-mohs__corte--3{left:4%;width:50%;height:84%;border-color:color-mix(in srgb,var(--brand) 55%,transparent)}
+.blk-mohs__selo{
+  display:flex;align-items:center;gap:var(--sp-2);margin:var(--sp-4) 0 0;padding:var(--sp-3);
+  max-width:30rem;background:var(--bg);border:1px solid color-mix(in srgb,var(--brand) 22%,transparent);
+  border-radius:var(--radius);font-size:.95rem;line-height:1.45;color:var(--ink);
+}
+.blk-mohs__ico{display:inline-flex;flex:none;width:2rem;height:2rem;color:var(--brand)}
+.blk-mohs__ico svg{width:100%;height:100%}
+.blk-mohs__etapas{list-style:none;margin:0;padding:0;display:grid;gap:var(--sp-2)}
+.blk-mohs__etapas li{
+  position:relative;display:grid;grid-template-columns:auto 1fr;column-gap:var(--sp-3);row-gap:.3rem;
+  padding:var(--sp-3) var(--sp-4);background:var(--bg);
+  border:1px solid color-mix(in srgb,var(--brand) 16%,transparent);border-radius:var(--radius);
+}
+.blk-mohs__etapas .blk-mohs__ico{grid-row:1 / span 2;margin-top:.15rem}
+.blk-mohs__num{
+  position:absolute;top:var(--sp-2);right:var(--sp-3);font-family:var(--f-display);
+  font-size:2.4rem;line-height:1;color:color-mix(in srgb,var(--brand) 30%,transparent);
+}
+.blk-mohs__etapas strong{font-family:var(--f-display);font-size:1.4rem;font-weight:500;line-height:1.15;color:var(--ink);padding-right:2rem}
+.blk-mohs__etapas p{margin:0;font-size:.97rem;line-height:1.6;color:color-mix(in srgb,var(--ink) 74%,transparent)}
+.blk-mohs__fio{margin-top:var(--sp-5);color:var(--brand)}
+@media (min-width:56rem){
+  .blk-mohs__grade{grid-template-columns:1fr 1fr;gap:var(--sp-6,4rem)}
+  .blk-mohs__texto{position:sticky;top:6rem}
+}
+</style>

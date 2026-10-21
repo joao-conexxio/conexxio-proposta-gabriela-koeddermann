@@ -1,0 +1,259 @@
+{
+  "slug": "gabriela-koeddermann",
+  "negocio": {
+    "nome": "Dra. Gabriela Koeddermann · Dermatologia",
+    "logo": "brand/logo.png",
+    "whatsapp": "5547991613984",
+    "unidades": [
+      {
+        "bairro": "Barra Sul · Balneário Camboriú/SC",
+        "endereco": "Rua 3850, 3984 – Barra Sul, Balneário Camboriú – SC, 88330-190",
+        "telefone": "(47) 99161-3984"
+      }
+    ]
+  },
+  "marca": {
+    "brand": "#86683C",
+    "brand2": "#6A512D",
+    "ink": "#2F2A25",
+    "bg": "#FAF8F4",
+    "pulse": "#C9A96E",
+    "radius": "10px",
+    "registro": "editorial",
+    "fontDisplay": "Cormorant Garamond",
+    "fontBody": "Montserrat",
+    "tomHero": "claro",
+    "tomCorpo": "claro"
+  },
+  "motivo": "camadas",
+  "secoes": [
+    {
+      "id": "header",
+      "variant": "sticky-cta",
+      "data": {
+        "links": [
+          { "texto": "Tratamentos", "href": "#tratamentos" },
+          { "texto": "Cirurgia de Mohs", "href": "#mohs" },
+          { "texto": "Formação", "href": "#formacao" },
+          { "texto": "Onde fica", "href": "#unidades" }
+        ]
+      }
+    },
+    {
+      "id": "hero",
+      "variant": "split-motivo",
+      "data": {
+        "eyebrow": "Dermatologia",
+        "h1": "Da consulta à cirurgia de Mohs",
+        "lead": "Dermatologia para adultos e crianças, cirurgia de pele e tratamento do câncer de pele, com a mesma médica do começo ao retorno. Na Barra Sul, em Balneário Camboriú.",
+        "cta": "Agendar pelo WhatsApp",
+        "ctaSecundario": "Entender a cirurgia de Mohs",
+        "ctaSecundarioHref": "#mohs",
+        "selo": "5,0 no Google · 173 avaliações · Mohs ·",
+        "cardTitulo": "Fale com o consultório",
+        "imagem": "midia/hero.jpg",
+        "imagemAlt": "Dra. Gabriela Koeddermann de blazer branco, braços cruzados, sobre fundo claro com o monograma GK",
+        "arte": "grao"
+      }
+    },
+    {
+      "id": "fita",
+      "data": {
+        "itens": [
+          "Acne",
+          "Melasma",
+          "Queda de cabelo",
+          "Psoríase",
+          "Dermatite atópica",
+          "Pintas e lesões",
+          "Câncer de pele",
+          "Cirurgia de Mohs",
+          "Doenças da unha",
+          "Cicatrizes",
+          "Dermatologia pediátrica",
+          "Rua 3850 · Barra Sul"
+        ]
+      }
+    },
+    {
+      "id": "numeros",
+      "variant": "faixa",
+      "data": {
+        "titulo": "O que as pacientes deixam escrito",
+        "itens": [
+          { "valor": "5,0", "rotulo": "de nota no Google" },
+          { "valor": "173", "rotulo": "avaliações no Google", "contar": 173 },
+          { "valor": "320", "rotulo": "opiniões na Doctoralia", "contar": 320 }
+        ]
+      }
+    },
+    {
+      "id": "manifesto",
+      "variant": "faixa",
+      "data": {
+        "eyebrow": "Como é a consulta",
+        "citacao": "Antes de olhar a pele, ela pergunta pela pessoa.",
+        "autor": "Consultório Dra. Gabriela Koeddermann",
+        "texto": [
+          "Nas avaliações, três coisas se repetem: atenção durante a consulta, explicação com detalhe e horário cumprido. A Dra. Gabriela trata acne e queda de cabelo com o mesmo cuidado que dedica a uma lesão suspeita, e atende de crianças pequenas a quem cuida da pele há décadas.",
+          "Quando o caso pede cirurgia, quem examina é quem opera e quem acompanha a cicatrização depois. Ninguém precisa recontar a história para outro médico."
+        ]
+      }
+    },
+    {
+      "id": "tratamentos",
+      "variant": "pilha",
+      "data": {
+        "titulo": "Tratamentos",
+        "lead": "Da consulta de rotina à cirurgia. Se não sabe por onde começar, conte no WhatsApp o que está incomodando.",
+        "itens": [
+          {
+            "nome": "Dermatologia clínica",
+            "descricao": "Acne, melasma, dermatites, psoríase e alergias de pele. Diagnóstico, plano de tratamento e acompanhamento até a pele estabilizar.",
+            "icone": "pele"
+          },
+          {
+            "nome": "Cabelo e unhas",
+            "descricao": "Queda de cabelo, alopecias e doenças da unha. A investigação começa pela causa, não pelo sintoma.",
+            "icone": "unha"
+          },
+          {
+            "nome": "Dermatologia pediátrica",
+            "descricao": "Atendimento para crianças de qualquer idade: dermatite atópica, manchas, sinais de nascença e o que mais aparecer na pele dos pequenos.",
+            "icone": "bebe"
+          },
+          {
+            "nome": "Pintas e câncer de pele",
+            "descricao": "Avaliação de pintas, manchas e feridas que não cicatrizam. Quando há suspeita, a lesão é retirada e analisada.",
+            "icone": "sol"
+          },
+          {
+            "nome": "Cirurgia dermatológica",
+            "descricao": "Retirada de cistos, sinais e lesões de pele, com sutura planejada para deixar a menor marca possível.",
+            "icone": "mao"
+          },
+          {
+            "nome": "Cirurgia micrográfica de Mohs",
+            "descricao": "Para câncer de pele, sobretudo no rosto: a lesão sai em camadas e a margem inteira é conferida ao microscópio durante a cirurgia.",
+            "icone": "microscopio"
+          },
+          {
+            "nome": "Estética facial",
+            "descricao": "Rugas de expressão, cicatrizes e qualidade da pele, indicados depois de uma avaliação dermatológica completa.",
+            "icone": "rosto"
+          }
+        ]
+      }
+    },
+    { "custom": "blocos/mohs.html" },
+    { "custom": "blocos/formacao.html" },
+    {
+      "id": "passos",
+      "variant": "timeline",
+      "data": {
+        "titulo": "Como funciona",
+        "lead": "Do primeiro recado ao retorno.",
+        "itens": [
+          {
+            "titulo": "Você manda uma mensagem",
+            "texto": "Conte no WhatsApp o que quer avaliar. O consultório responde com os próximos horários.",
+            "icone": "conversa"
+          },
+          {
+            "titulo": "A consulta",
+            "texto": "Presencial na Barra Sul ou por vídeo. A médica examina, explica o que encontrou e o que propõe.",
+            "icone": "estetoscopio"
+          },
+          {
+            "titulo": "O tratamento",
+            "texto": "Receita e orientação de rotina, ou o procedimento agendado quando o caso pede cirurgia.",
+            "icone": "mao"
+          },
+          {
+            "titulo": "O retorno",
+            "texto": "É no retorno que se confere a resposta ao tratamento, a cicatrização e o resultado do exame da lesão.",
+            "icone": "agenda"
+          }
+        ]
+      }
+    },
+    {
+      "id": "depoimentos",
+      "variant": "citacoes",
+      "data": {
+        "titulo": "O que as pacientes contam",
+        "itens": [
+          {
+            "texto": "Uma médica que realmente se importa em tratar o paciente. Humana, difícil de se encontrar hoje em dia. Atenciosa e competente!",
+            "autor": "Júlia P.",
+            "contexto": "Avaliação na Doctoralia"
+          },
+          {
+            "texto": "Atenciosa, carinhosa, explicando com detalhes. Muito profissional, e já a indiquei a outras pessoas.",
+            "autor": "Myrian B.",
+            "contexto": "Avaliação na Doctoralia"
+          },
+          {
+            "texto": "Profissional extremamente capacitada, atenciosa, todo cuidado e carinho com os pacientes.",
+            "autor": "Terezinha",
+            "contexto": "Primeira consulta"
+          }
+        ]
+      }
+    },
+    {
+      "id": "faq",
+      "variant": "colunas",
+      "data": {
+        "titulo": "Antes de marcar",
+        "itens": [
+          {
+            "p": "Como eu agendo?",
+            "r": "Pelo WhatsApp (47) 99161-3984. Diga o que quer avaliar e o período que prefere."
+          },
+          {
+            "p": "Atende crianças?",
+            "r": "Sim. A Dra. Gabriela atende adultos e crianças de qualquer idade."
+          },
+          {
+            "p": "Tem consulta por vídeo?",
+            "r": "Tem. A teleconsulta serve bem para retorno e para acompanhar tratamentos em andamento. Lesões novas pedem exame presencial."
+          },
+          {
+            "p": "Atende pela Unimed?",
+            "r": "A Dra. Gabriela também atende pela Unimed, em Balneário Camboriú e em Itajaí. Confirme pelo WhatsApp qual local vale para o seu plano."
+          },
+          {
+            "p": "Para quem é indicada a cirurgia de Mohs?",
+            "r": "Principalmente para carcinomas basocelular e espinocelular em áreas onde preservar pele importa, como nariz, pálpebras, lábios e orelhas, e para tumores que voltaram. A indicação sai da consulta."
+          },
+          {
+            "p": "Por que a cirurgia de Mohs demora mais?",
+            "r": "Porque cada camada retirada é analisada ao microscópio antes da próxima. O tempo a mais é o que permite retirar só o necessário."
+          }
+        ]
+      }
+    },
+    {
+      "id": "unidades",
+      "variant": "unica",
+      "data": {
+        "titulo": "Na Rua 3850, Barra Sul"
+      }
+    },
+    {
+      "id": "cta-final",
+      "variant": "bloco-cheio",
+      "data": {
+        "h2": "Aquela pinta que você vem adiando olhar",
+        "lead": "Ou a acne, a queda de cabelo, a mancha que voltou. Mande uma mensagem e o consultório responde com o próximo horário.",
+        "cta": "Agendar pelo WhatsApp"
+      }
+    },
+    {
+      "id": "footer",
+      "variant": "assinatura",
+      "data": {}
+    }
+  ]
+}

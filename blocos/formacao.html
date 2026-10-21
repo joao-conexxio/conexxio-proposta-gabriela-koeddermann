@@ -1,0 +1,74 @@
+<section class="blk-form" id="formacao">
+  <div class="wrap blk-form__grade">
+    <figure class="blk-form__foto" data-reveal>
+      <!--foto:midia/gabriela.jpg|Retrato da Dra. Gabriela Koeddermann de jaleco branco-->
+      <figcaption>Dra. Gabriela Koeddermann · CRM SC 24288 · RQE SC 22794</figcaption>
+    </figure>
+    <div class="blk-form__texto">
+      <p class="blk-form__eyebrow">Formação</p>
+      <h2 class="blk-form__titulo" data-reveal>De Curitiba a Florianópolis, até a Barra Sul</h2>
+      <ol class="blk-form__linha">
+        <li data-reveal style="--d:0ms">
+          <span class="blk-form__cidade">Curitiba</span>
+          <strong>Dermatologia</strong>
+          <p>Formação no Hospital Universitário Evangélico Mackenzie.</p>
+        </li>
+        <li data-reveal style="--d:100ms">
+          <span class="blk-form__cidade">Curitiba</span>
+          <strong>Cirurgia e oncologia cutânea</strong>
+          <p>Especialização no mesmo hospital, voltada ao tratamento cirúrgico do câncer de pele.</p>
+        </li>
+        <li data-reveal style="--d:200ms">
+          <span class="blk-form__cidade">Florianópolis</span>
+          <strong>Fellowship em cirurgia micrográfica</strong>
+          <p>A técnica de Mohs, aprendida na Universidade Federal de Santa Catarina.</p>
+        </li>
+        <li data-reveal style="--d:300ms">
+          <span class="blk-form__cidade">Balneário Camboriú</span>
+          <strong>Consultório próprio</strong>
+          <p>Na Rua 3850, Barra Sul, com dermatologia clínica, cirúrgica e estética no mesmo lugar.</p>
+        </li>
+      </ol>
+    </div>
+  </div>
+</section>
+
+<style>
+.blk-form{padding-block:var(--sp-section)}
+.blk-form__grade{display:grid;gap:var(--sp-5);align-items:center}
+.blk-form__foto{margin:0}
+.blk-form__foto img{
+  display:block;width:100%;max-width:28rem;aspect-ratio:4/5;object-fit:cover;object-position:50% 30%;
+  border-radius:var(--radius);
+}
+.blk-form__foto figcaption{
+  margin-top:var(--sp-2);font-size:var(--t-label);letter-spacing:var(--eyebrow-track);
+  text-transform:uppercase;color:color-mix(in srgb,var(--ink) 60%,transparent);
+}
+.blk-form__eyebrow{
+  margin:0 0 var(--sp-2);font-family:var(--f-body);font-size:var(--t-label);
+  letter-spacing:var(--eyebrow-track);text-transform:uppercase;color:var(--brand);
+}
+.blk-form__titulo{
+  margin:0;font-family:var(--f-display);font-size:var(--t-h2);font-weight:500;
+  line-height:var(--lh-display);text-wrap:balance;color:var(--ink);
+}
+.blk-form__linha{
+  list-style:none;margin:var(--sp-4) 0 0;padding:0 0 0 var(--sp-4);display:grid;gap:var(--sp-4);
+  border-left:1px solid color-mix(in srgb,var(--brand) 35%,transparent);
+}
+.blk-form__linha li{position:relative;display:flex;flex-direction:column;gap:.25rem}
+.blk-form__linha li::before{
+  content:"";position:absolute;left:calc(-1 * var(--sp-4) - .38rem);top:.3rem;width:.7rem;height:.7rem;
+  border-radius:50%;background:var(--bg);border:2px solid var(--brand);
+}
+.blk-form__linha li:last-child::before{background:var(--brand)}
+.blk-form__cidade{
+  font-size:var(--t-label);letter-spacing:var(--eyebrow-track);text-transform:uppercase;color:var(--brand);
+}
+.blk-form__linha strong{font-family:var(--f-display);font-size:1.5rem;font-weight:500;line-height:1.15;color:var(--ink)}
+.blk-form__linha p{margin:0;font-size:.97rem;line-height:1.6;color:color-mix(in srgb,var(--ink) 74%,transparent)}
+@media (min-width:56rem){
+  .blk-form__grade{grid-template-columns:5fr 6fr;gap:var(--sp-6,4rem)}
+}
+</style>
